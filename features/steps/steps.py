@@ -18,6 +18,7 @@ def step_impl(context, url):
         fixed_url = f"https://{url}"
     context.driver.get(fixed_url)
 
+
 @then("devo ser redirecionado para a página {site}")
 def step_impl(context, site):
     print(context.driver.current_url)

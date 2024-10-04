@@ -1,6 +1,6 @@
 from behave import when
 
-from pages.search_page import GoogleSearchPage
+from pages.google_search_page import GoogleSearchPage
 
 
 @when("preencho o campo de busca com o texto {termo}")
